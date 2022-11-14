@@ -37,15 +37,15 @@ namespace Module4HW3
                 .HasColumnName("HiredDate")
                 .HasMaxLength(7);
 
-            builder.HasOne(h => h.Office)
-                .WithMany(w => w.Employees)
-                .HasForeignKey(h => h.OfficeId)
-                .OnDelete(DeleteBehavior.Cascade);
+            // builder.HasOne(h => h.Office)
+            //    .WithMany(w => w.Employees)
+            //    .HasForeignKey(h => h.OfficeId)
+            //    .OnDelete(DeleteBehavior.Cascade);
 
-            builder.HasOne(h => h.Title)
-                .WithMany(w => w.Employees)
-                .HasForeignKey(h => h.TitleId)
-                .OnDelete(DeleteBehavior.Cascade);
+            // builder.HasOne(h => h.Title)
+            //    .WithMany(w => w.Employees)
+            //    .HasForeignKey(h => h.TitleId)
+            //    .OnDelete(DeleteBehavior.Cascade);
         }
     }
 }
