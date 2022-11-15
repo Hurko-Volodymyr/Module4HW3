@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Data Source=KRISKA-KRISKOVN/pzkpmfv;Initial Catalog = Module4HW3;Integrated Security=True;"
+  }
+}
